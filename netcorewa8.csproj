@@ -7,4 +7,8 @@
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Content Include=".github\workflows\docker-image.yml" />
+    </ItemGroup>
+
 </Project>
